@@ -52,7 +52,7 @@
         </footer>
       </b-col>
       <b-col md="6" class="deliveries" v-if="this.deliveries && !this.error">
-        <b-card img-right :v-for="delivery in deliveries" class="delivery">
+        <b-card img-right v-for="delivery in deliveries" class="delivery">
           <h3 :class="delivery.available ? 'delivery-header' : 'delivery-header-u'">{{ delivery.type }}</h3>
           <p v-if="!delivery.available">Not available in that city</p>
           <h4 :class="delivery.available ? 'delivery-price' : 'delivery-price-u'">{{ delivery.price }}$</h4>
