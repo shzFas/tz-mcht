@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html, * {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.error{
+  font-weight: normal;
+  font-size: 16px;
+  color: #FF4757;
+}
+.error-btn{
+  background: linear-gradient(279.56deg, #FF4757 15.15%, rgba(255, 255, 255, 0) 171.55%);
+  border-radius: 50px;
+  width: 25%;
+  height: 65px;
+  margin-left: -50px;
+  box-sizing: border-box;
+  font-weight: 700;
+  text-transform: uppercase;
+  size: 24px;
+  color: #FFFFFF;
+  border: none;
+  vertical-align: middle;
+  transform: translateY(-3px);
+}
+
+.nav-brand span {
+  size: 24px;
+  line-height: 40px;
+  color: #283044;
+  margin-left: 8px;
+}
+
+.main-heading {
+  size: 48px;
+  font-weight: 700;
+  color: #283044;
+}
+
+.main-subheading {
+  size: 24px;
+  font-weight: 400;
+  color: rgba(40, 48, 68, 0.5);
+}
+
+
+.search {
+  background: #FFFFFF;
+  border: 1px solid #E9F0EB;
+  box-sizing: border-box;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-right: none;
+  height: 65px;
+  width: 65%;
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #283044;
+  padding-top: 0px;
+  padding-right: 50px;
+}
+.search-error{
+  border: 1px solid #FF4757;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-right: none;
+  height: 65px;
+  width: 65%;
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #283044;
+  padding-top: 0px;
+  padding-right: 50px;
+  outline: none;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.table-heading {
+  font-weight: 400;
+  size: 24px;
+}
+
+.search::placeholder {
+  font-size: 20px;
+  color: #D9E4DC;
+  font-weight: normal;
+}
+
+.search-btn {
+  background: linear-gradient(279.56deg, #65B3E4 15.15%, rgba(120, 161, 187, 0) 171.55%);
+  border-radius: 50px;
+  width: 25%;
+  height: 65px;
+  margin-left: -50px;
+  box-sizing: border-box;
+  font-weight: 700;
+  text-transform: uppercase;
+  size: 24px;
+  color: #FFFFFF;
+  border: none;
+  vertical-align: middle;
+  transform: translateY(-3px);
+}
+.deliveries{
+  background-color: #F7F7F7;
+  border-radius: 40px 0px 0px 40px;
+}
+.image-column {
+  position: relative;
+  background-color: #F7F7F7;
+  border-radius: 40px 0px 0px 40px;
+  height: 97vh;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+.car-img {
+  left: 100px;
+  position: absolute;
+  z-index: 10;
+  height: 450px;
+  width: 450px;
+  top: 100px;
+}
+
+.road-img {
+  left: 100px;
+  top: 50px;
+  position: absolute;
+  z-index: 7;
+}
+
+.peshehod {
+  left: 100px;
+  top: 250px;
+  position: absolute;
+  z-index: 8;
+}
+
+.img-title {
+  font-size: 75px;
+  left: 390px;
+  top: 20px;
+  color: rgba(40, 48, 68, 0.1);
+  position: absolute;
+  z-index: 9;
+}
+
+.nav-brand {
+  font-weight: 700;
+}
+
+.table-col span {
+  padding-left: 10px;
+  width: 40%;
+  display: inline-block;
+  font-weight: normal;
+  size: 20px;
+  color: rgba(40, 48, 68, 0.5);
+  border-bottom: 1px solid #E9F0EB;
+  margin-right: 10%;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.delivery{
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: #FFFFFF;
+  border-radius: 22px;
+  border: none;
+}
+.delivery-header{
+  text-transform: capitalize;
+  color: #283044;
+  font-size: 30px;
+  font-weight: bold;
+}
+.delivery-header-u{
+  text-transform: capitalize;
+  color: #283044;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.delivery-price{
+  color: #78A1BB;
+  font-size: 40px;
+  font-weight: bold;
+}
+.delivery-price-u{
+  color: #78A1BB;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.delivery p{
+  color: #283044;
+  opacity: 0.5;
+  font-size: 20px;
+}
+.desktop-footer {
+  size: 14px;
+  color: #283044;
+  opacity: 0.5;
+}
+
+.payment-images {
+  float: right;
+  padding-right: 10%;
+}
+.payment-images img{
+  margin-left: 10px;
+}
